@@ -1,0 +1,30 @@
+{
+  "name": "lvge-redis",
+  "version": "2.0.1",
+  "description": "Redis Connection Pool",
+  "main": "index.js",
+  "dependencies": {
+    "generic-pool": "*",
+    "redis": "*",
+    "lvge-utils": "*"
+  },
+  "devDependencies": {},
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test-docker": "docker-compose up ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinchou/lvge-redis"
+  },
+  "keywords": [
+    "Redis",
+    "Pool"
+  ],
+  "author": "Justin Chou <zhou78620051@126.com>",
+  "license": "MIT"
+}
