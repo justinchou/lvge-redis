@@ -142,10 +142,10 @@ function test_binary() {
     pool.execute("hget", "testHash", "k1", buf_cb);
 }
 
-//test_string();
-//test_list();
-//test_hash();
-//test_setPositive();
-//test_setLarger();
+test_string();
+test_list();
+test_hash();
+test_setPositive();
+test_setLarger();
 
 
